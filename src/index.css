@@ -26,7 +26,7 @@ body{
 .window{
   background-color: #162732;
   width: 75%;
-  height: 430px;
+  height: 60vmin;
   margin: 0 auto 0 auto;
   text-align: left;
   border-radius: 10px;
@@ -40,10 +40,17 @@ li{
   color: #E9DDFF;
   font-family: sans-serif,"ubuntu";
   font-weight: normal;
+  margin-top:5px;
+  margin-bottom: 5px;
 
 }
 input,input:focus{
   all: unset;
+  width: 81%;
 
+}
+pre{
+  font-family: inherit;
+  font-size: inherit;
 }
 
